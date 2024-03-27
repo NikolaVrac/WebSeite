@@ -1,0 +1,162 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    border-bottom: 3px solid #003d99 ;    
+
+}
+
+.page {
+    
+
+}
+
+.footer {
+    
+
+}
+
+
+
+.column {
+
+    width: 1000px;
+    margin: 0px auto;
+    
+
+}
+
+.page .column {
+    height: 100vh;
+
+}
+
+#logo-i-social {
+    display: flex;
+
+}
+
+#logo-holder {
+    flex-grow: 1;
+
+}
+
+#logo-holder img {
+    height: 80px;
+    width: 100px;
+
+}
+
+#social-holder {
+    flex-wrap: 1;
+    text-align: right;
+
+}
+
+#social-holder a {
+    text-decoration: none;
+}
+
+#social-holder a img {
+    margin: 5px;
+    height: 24px;
+    width: 24px;
+}
+
+#main-menu {
+    display: flex;
+
+}
+
+#main-menu a {
+    flex-grow: 1;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+    color:#1a75ff ;
+    transition: 400ms;
+
+}
+
+#main-menu a:hover, 
+#main-menu a.active {
+    background: #1a75ff ;
+    color: #ffffff
+
+
+}
+
+#pocetna-stranica {
+    text-align: center;
+    color: #99c2ff;
+    background: url(cysc_logo.webp);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+#pocetna-stranica h1 {
+    font-size: 32pt;
+    margin-top: 0pt;
+    padding-top: calc(50vh - 250px);
+    
+}
+
+.dark-box {
+    background-color: 33333330;
+    border: 1px solid #1a75ff ;
+    font-size: 17pt;
+}
+
+#o-nama {
+    background: url(cys_background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 28pt;
+    color: #99c2ff;
+    padding-top: calc(50vh - 250px)
+    
+}
+
+.align-center {
+    text-align: center;
+
+
+}
+
+.krugovi {
+    display: flex;
+    margin: 50px 0;
+
+}
+
+.krug-holder {
+    flex-grow: 1;
+    color: #99c2ff;
+
+}
+
+.krug {
+    background: #1a75ff;
+    color: #99c2ff;
+    font-size: 31px;
+    display: inline-block;
+    padding: 25%;
+    width: 50px;
+    border-radius: 50%;
+    text-align: center;
+
+
+}
+
+.oznaka {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+
